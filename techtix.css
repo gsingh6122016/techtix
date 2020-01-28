@@ -1,13 +1,17 @@
+
 .container1
     {
-        margin: 0;
+        margin: -5%;
         padding: 0;
         box-sizing: border-box;
         font-family: 'Zhi Mang Xing','sans-serif';
         font-size: 1.3rem;
-         background: url(""); 
+         background: url("back.png"); 
         line-height: 1.5;
         text-align: center;
+        background-attachment: fixed;
+        overflow-x: hidden;
+
         }
 h1{
     text-align: center;
@@ -58,7 +62,7 @@ h1{
         }
     }
 
-img{
+.design{
     display: block;
     width: 100%;
     height: auto;
@@ -71,7 +75,7 @@ img{
     margin: 0;
     padding: 1em 0;
 }
-.card > div{
+.list{
     text-align: justify;
 }
 
@@ -94,7 +98,7 @@ img{
     margin-bottom: 2rem;
     width:100% ;
     height:100% ;
-    background: red;
+    background:transparent;
 }
 .card h1{
     margin-bottom: 2rem;
