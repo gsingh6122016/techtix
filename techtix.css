@@ -34,7 +34,9 @@ body{
         text-align: center;
         }
 
-
+h1{
+    text-align: center;
+}
 
     @keyframes animate{
         0%
@@ -53,13 +55,15 @@ body{
     display: block;
     width: 40%;
     float:left;
-    height: 80%;
+    height: 100%;
+
 }
 
 #firstImg{
     background: url("./robotics/back theme.png");
     background-size: 600px 600px;
     background-repeat: no-repeat;
+        margin-left: 5%;
 }
 
 #secondImg{
@@ -82,19 +86,23 @@ body{
    width:40%;
    float:left;
    margin-top: 5%;
+   padding-left: 10%;
 }
 
 .bulletWrapper img{
  height: 18%;
- margin-left: 5%;
 }
 
 #bulletOne{
-  margin-left:10%;
+  margin-left:20%;
 }
 
 #bulletThree{
-  margin-left:10%;
+  margin-left:20%;
+}
+
+#firstBullet{
+
 }
 
 .bulletWrapper > div{
@@ -104,16 +112,16 @@ body{
 #eventHeading{
   font-family: BlackChancery;
   font-size: 60px;
-  margin-left: 25%;
-  margin-top: 22%;
+  margin-left: 33%;
+  margin-top: 33%;
   color:#3E221F;
 }
 
 
 @media(min-width: 700px){
-  
+
 .cardWrapper{
-  
+
     margin-bottom: 2rem;
     width:100% ;
     height:100% ;
@@ -129,7 +137,6 @@ body{
 }
 
 .cardWrapper > div{
-    padding: 4rem;
     text-align: justify;
 }
 
