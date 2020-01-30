@@ -18,7 +18,7 @@ body{
 h1{
     text-align: center;
 }
-#showcase{
+/* #showcase{
     min-height: 380px;
     text-align: center;
 
@@ -50,7 +50,7 @@ h1{
         -webkit-background-clip:text;
         -webkit-text-fill-color:rgba(255,255,255,0.01);
 
-    }
+    } */
     @keyframes animate{
         0%
         {
@@ -68,8 +68,21 @@ h1{
     display: block;
     width: 40%;
     float:left;
-    height: auto;
+    height: 80%;
 }
+
+#firstImg{
+    background: url("./robotics/back theme.png");
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
+}
+
+#secondImg{
+    background: url("./gaming zone/back.png");
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
+}
+
 .cardWrapper h1{
     margin: 0;
     padding: 1em 0;
