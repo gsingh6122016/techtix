@@ -1,3 +1,8 @@
+@font-face{
+    src:url(BLKCHCRY.TTF);
+    font-family: BlackChancery;
+}
+
 body{
   background: url("back.png");
   background-attachment: fixed;
@@ -87,14 +92,33 @@ h1{
     margin: 0;
     padding: 1em 0;
 }
+
 .cardWrapper p{
     margin: 0;
     padding: 1em 0;
 }
+
 .bulletWrapper{
    width:40%;
    float:left;
 }
+
+.bulletWrapper img{
+width:100%;
+}
+
+.bulletWrapper > div{
+
+}
+
+#eventHeading{
+  font-family: BlackChancery;
+  font-size: 60px;
+  margin-left: 25%;
+  margin-top: 22%;
+  color:#3E221F;
+}
+
 
 @media(min-width: 700px){
     /* .grid{
@@ -105,9 +129,9 @@ h1{
         grid-column: 2/4;
     } */
 
-img{
+/* img{
     width: 100%;
-}
+} */
 .cardWrapper{
     /* display: grid; */
 
