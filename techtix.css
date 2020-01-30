@@ -9,6 +9,20 @@ body{
   overflow-x: hidden;
 }
 
+#mainHead{
+    margin-top: 10%;
+    font-size: 40px;
+    text-align: center;
+    font-family: BlackChancery;
+    letter-spacing: 0.1em;
+    margin-bottom: 0px;
+    color: #241b0dc2;
+}
+
+#mainHead h1{
+    margin-block-end: 0px;
+}
+
 .container1
     {
         margin: 0;
@@ -20,42 +34,8 @@ body{
         text-align: center;
         }
 
-h1{
-    text-align: center;
-}
-/* #showcase{
-    min-height: 380px;
-    text-align: center;
 
-}
-#showcase .bg-image{
-    position: absolute;
-    background: #333 url(2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 450px;
-    z-index: -1;
-    opacity: 0.7;
-    float:left;
-}
-#showcase h1{
-    position: relative;
-    padding-top: 140px;
 
-    font-size: 7vh;
-    letter-spacing: 3.5px;
-        overflow: hidden;
-        background: linear-gradient(90deg,#000,#fff,#000);
-        background-size: 80%;
-    font-family: 'Handlee', cursive;
-        background-repeat: no-repeat;
-        animation: animate 3s linear infinite;
-        -webkit-background-clip:text;
-        -webkit-text-fill-color:rgba(255,255,255,0.01);
-
-    } */
     @keyframes animate{
         0%
         {
@@ -131,22 +111,9 @@ h1{
 
 
 @media(min-width: 700px){
-    /* .grid{
-        display: grid;
-        grid-template-columns: 1fr repeat(2,minmax(auto,25em)) 1fr;
-    }
-    .content-wrap{
-        grid-column: 2/4;
-    } */
-
-/* img{
-    width: 100%;
-} */
+  
 .cardWrapper{
-    /* display: grid; */
-
-    /* grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem; */
+  
     margin-bottom: 2rem;
     width:100% ;
     height:100% ;
