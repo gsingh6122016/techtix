@@ -73,7 +73,7 @@ h1{
     background: url("./gaming zone/back.png");
     background-size: contain;
     background-repeat: no-repeat;
-    padding-left: 8%;
+    margin-left: 8%;
 }
 
 #secondCard{
@@ -104,11 +104,11 @@ h1{
 }
 
 #bulletOne{
-  padding-left:20%;
+  margin-left:20%;
 }
 
 #bulletThree{
-  padding-left:20%;
+  margin-left:20%;
 }
 
 #firstBullet{
