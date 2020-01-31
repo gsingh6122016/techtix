@@ -192,4 +192,21 @@ padding-top: 2%;
     #secondImg{
         margin:0;
     }
+
+    .container1
+    {
+        padding-left:0;
+        
+        }
+        
+#mainHead{
+    margin-top: 10%;
+    padding-left: 47%;
+    font-size: 30px;
+    text-align: center;
+    font-family: BlackChancery;
+    letter-spacing: 0.1em;
+    margin-bottom: 0px;
+    color: #241b0dc2;
+}
 }
