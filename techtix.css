@@ -73,7 +73,7 @@ h1{
     background: url("./gaming zone/back.png");
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 8%;
+    padding-left: 8%;
 }
 
 #secondCard{
@@ -92,7 +92,7 @@ h1{
 }
 
 .bulletWrapper{
-   width:500px;
+   width:400px;
    float:left;
    margin-top: 5%;
    /* padding-left: 10%; */
@@ -104,11 +104,11 @@ h1{
 }
 
 #bulletOne{
-  margin-left:20%;
+  padding-left:20%;
 }
 
 #bulletThree{
-  margin-left:20%;
+  padding-left:20%;
 }
 
 #firstBullet{
@@ -133,6 +133,9 @@ padding-top: 2%;
   text-align: center;
 }
 
+#thirdCard{
+    display: none;
+}
 
 @media(min-width: 700px){
 
@@ -170,7 +173,23 @@ padding-top: 2%;
     } */
 }
 
+
+
 @media(max-width: 900px){
 
-    
+    #secondCard{
+        display: none;
+    }
+     
+    #thirdCard{
+        display:block;
+    }
+
+    #secondBullet{
+        padding-left: 16%;
+    }
+
+    #secondImg{
+        margin:0;
+    }
 }
